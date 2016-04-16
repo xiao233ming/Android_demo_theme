@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme2" parent="android:Theme.Material.Light">
+
+        <!--设置状态栏-->
+        <item name="colorPrimaryDark">@color/statusColor_2</item>
+
+        <!--actionBar的颜色-->
+        <item name="android:colorPrimary">@color/colorPrimary_2</item>
+
+        <!--背景色-->
+        <item name="android:windowBackground">@color/windowColor_2</item>
+
+        <!--导航色-->
+        <item name="android:navigationBarColor">@color/navigationBarColor_2</item>
+    </style>
+</resources>

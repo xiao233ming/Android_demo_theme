@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--需要最低api21以上，故修改build.grade使得最低版本为22-->
+    <style name="Theme1" parent="android:Theme.Material.Light">
+
+        <!--设置状态栏-->
+        <item name="colorPrimaryDark">@color/statusColor_1</item>
+
+        <!--actionBar的颜色-->
+        <item name="android:colorPrimary">@color/colorPrimary_1</item>
+
+        <!--背景色-->
+        <item name="android:windowBackground">@color/windowColor_1</item>
+
+        <!--导航色-->
+        <item name="android:navigationBarColor">@color/navigationBarColor_1</item>
+    </style>
+</resources>
